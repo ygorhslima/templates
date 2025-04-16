@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Demon Slayer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div id="logo">
+                <a href="#"><img src="imagens/Demon_slayer-logo.png" width="100"></a>
+            </div>
+
+            <div id="menu">
+                <nav>
+                    <a href="Jujutsu_Kaisen.html">Jujustu Kaisen</a>
+                    <a href="Demon_Slayer.html">Demon Slayer</a>
+                    <a href="Toyko_revenge.html">Toyko Revenge</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div id="opcoes">
+                <!--Target é utilizado para conectar o link com a tela do iframe-->
+                <div class="botoes">
+                    <a href="personagens/Tanjiro_Kamado.html" target="tela"><img src="imagens/Tanjiro-icon.jpg"></a>
+                    <p>Tanjiro Kamado</p>
+                </div>
+                
+                <div class="botoes">
+                    <a href="personagens/Zenitsu.html" target="tela"><img src="imagens/Zenitsu-icon.jpg"></a>
+                    <p>Zenitsu Agatsuma</p>
+                </div>
+                
+                <div class="botoes">
+                    <a href="personagens/Nezuko.html" target="tela"><img src="imagens/Nezuko-icon.jpg"></a>
+                    <p>Nezuko Kamado</p>
+                </div>
+            </div>
+
+            <div id="iframe">
+                <iframe src="home.html" name="tela" id="tela" width="500" height="500" style="margin: 0px auto;"></iframe>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div id="copy">
+            <a href="#"><img src="imagens/instagram.png"></a>
+            <a href="#"><img src="imagens/facebook.png"></a>
+            <p>Copyright - Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+    
+    <video id="video-background" autoplay muted loop>
+        <source src="videos/Demon-slayer-video.mp4" type="video/mp4">
+    </video>
+</body>
+</html>

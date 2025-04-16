@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="forma-azul"></div>
+    <section>
+        <form action="#" method="POST">
+            <h1>Crie sua conta</h1>
+            <fieldset>    
+                <div id="container">
+                    <input type="text" name="nome" id="inome" required autofocus>
+                    <label for="inome">nome</label>
+                </div>
+
+                <div id="container">
+                    <input type="text" name="sobrenome" id="isobrenome" required autofocus>
+                    <label for="isobrenome">sobrenome</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div id="container">
+                    <input type="email" name="email" id="iemail" required autofocus>
+                    <label for="iemail">E-mail</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div id="container">
+                    <input type="password" name="senha" id="isenha" required autofocus>
+                    <label for="isenha">Senha</label>
+                </div>
+
+                <div id="container">
+                    <input type="password" name="confirmar_senha" id="iconfirmar_senha" required autofocus>
+                    <label for="iconfirmar_senha">Confirm Senha</label>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <div id="check">
+                    <input type="checkbox" name="aceitar" id="iaceitar" required>
+                    <label for="iaceitar">Aceitar os termos de uso</label>
+                </div>
+            </fieldset>
+
+            <a href="#">Termos de serviços</a>
+            <button name="submit">Criar Conta</button>
+        </form>
+        <img src="./images/user.png" alt="User">
+    </section>
+</body>
+</html>

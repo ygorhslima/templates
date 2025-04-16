@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Christmas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #img-logo {width: 40px; display: inline;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="#">
+                <p>
+                    <img src="img/icon-gorro.png" alt="Logo de Natal" id="img-logo">
+                    Enchanted Christmas
+                </p>
+            </a>
+        </div>
+    
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="countdown">
+        <h2>Faltam Apenas...</h2>
+        <div id="timer">
+            <span id="days">00</span> dias,
+            <span id="hours">00</span> horas,
+            <span id="minutes">00</span> minutos,
+            <span id="seconds">00</span> segundos para o Natal!
+        </div>
+    </section>
+
+    <main>
+        <section id="hero">
+            <h1>Bem-vindo ao Natal Encantado</h1>
+            <p>Descubra a magia e o espírito do Natal em cada detalhe!</p>
+            <a href="about.html" class="btn">Explorar</a>
+        </section>
+    
+        <section id="about">
+            <h2>Sobre o Enchanted Christmas</h2>
+            <p>Enchanted Christmas é o destino perfeito para celebrar o Natal. Aqui, você encontrará histórias, decorações, receitas e muito mais para tornar sua celebração inesquecível!</p>
+        </section>
+    
+        <section id="features">
+            <h2>Destaques</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>Tradições Natalinas</h3>
+                    <p>Conheça as tradições ao redor do mundo e inspire-se para celebrar com estilo.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Receitas Deliciosas</h3>
+                    <p>Descubra pratos incríveis para o seu jantar de Natal.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Dicas de Decoração</h3>
+                    <p>Transforme sua casa em um ambiente mágico e acolhedor.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia">
+            <h2>Histórias Natalinas</h2>
+            <p>Reviva a magia do Natal com histórias inspiradoras e emocionantes para toda a família.</p>
+            <ul>
+                <li><strong>O milagre da meia-noite:</strong> Uma história sobre esperança e renovação.</li>
+                <li><strong>O Natal na montanha:</strong> Um conto sobre união e amor familiar.</li>
+                <li><strong>A estrela de Natal:</strong> Uma aventura que revela o verdadeiro espírito natalino.</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="galeria-grid">
+                <figure>
+                    <img src="img/natal1.jpg" alt="Decoração de Natal 1">
+                    <figcaption>Decoração de Natal 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/natal2.jpg" alt="Decoração de Natal 2">
+                    <figcaption>Decoração de Natal 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/natal3.jpg" alt="Decoração de Natal 3">
+                    <figcaption>Decoração de Natal 3</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/natal4.jpg" alt="Decoração de Natal 4">
+                    <figcaption>Decoração de Natal 4</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/natal5.jpg" alt="Decoração de Natal 5">
+                    <figcaption>Decoração de Natal 5</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/natal6.jpg" alt="Decoração de Natal 6">
+                    <figcaption>Decoração de Natal 6</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+      
+        <section id="contatos">
+            <h2>Fale Conosco</h2>
+            <form action="submit_form.html" method="post" id="contatos-form">
+
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">telefone (opcional)</label>
+                    <input type="tel" name="phone" id="phone" placeholder="(XX) XXXX-XXXX">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Enchanted Christmas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
